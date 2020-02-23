@@ -1,0 +1,29 @@
+{
+  "name": "custom.remote.python.basic_plugin",
+  "version": "1.001",
+  "type": "python",
+  "entity": "CUSTOM_DEVICE",
+  "technologies": ["Test"],
+  "metricGroup": "tech.BasicPlugin",
+  "source": {
+    "package": "basic_plugin",
+    "className": "BasicPlugin",
+    "install_requires": ["requests"],
+    "activation": "Remote"
+  },
+  "properties": [],
+  "configUI": {
+    "displayName": "Basic Plugin",
+    "properties": []
+  },
+  "metrics": [
+    {
+      "entity": "CUSTOM_DEVICE",
+      "timeseries": {
+        "key": "metric-1",
+        "unit": "Count",
+        "displayname": "Metric 1"
+      }
+    }
+  ]
+}
