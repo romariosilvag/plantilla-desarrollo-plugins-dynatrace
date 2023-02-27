@@ -8,6 +8,7 @@ logger = logging.getLogger(__name__)
 class BasicPlugin(RemoteBasePlugin):
 
     def query(self, **kwargs) -> None:
+        
         pass
 
 
